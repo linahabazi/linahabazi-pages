@@ -1,5 +1,5 @@
 baseurl = "https://linahabazi.github.io/"
-title = "Creative portfolio"
+title = "Lina Habazi"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -10,12 +10,11 @@ googleAnalytics = ""
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
-  style = "default"
-  description = "Describe your website"
-  copyright = "&copy;2016 Your name or company"
+  style = "violet"
+  description = "Lina Habazi art portfolio"
+  copyright = "&copy;2020 Lina Habazi"
   sidebarAbout = [
-    "I am a creative illustrator and graphic designer with more than 10 years of experience.",
-    "Originally from Toronto, currently based in London."
+    "I am an artist and software developer based in Houston, TX.",
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
@@ -29,7 +28,7 @@ googleAnalytics = ""
      # - send a dummy email yourself to confirm your account
      # - click the confirm link in the email from www.formspree.io
      # - you're done. Happy mailing!
-  email = "you@yoursite.com"
+  email = "contact@linahabazi.com"
 
     # Optional Matomo analytics (formerly piwik)
       # [params.analytics.matomo]
@@ -55,13 +54,13 @@ googleAnalytics = ""
   url = "contact/"
 
   [params.social]
-  facebook      = "full page or profile url in facebook"
+  facebook      = "www.facebook.com/linahabazi"
   googleplus    = "full profile url in googleplus"
-  email         = "email@example.com"
+  email         = "contact@linahabazi.com"
   twitter       = "full profile url in twitter"
   linkedin      = "full profile url in linkedin"
   stackoverflow = "full profile url in stackoverflow"
-  instagram     = "full profile url in instagram"
+  instagram     = "www.instagram.com/linahabazi"
   github        = "full profile url in github"
   youtube       = "full profile url in youtube"
   whatsapp      = "wa.me service link"
