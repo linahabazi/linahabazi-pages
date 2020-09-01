@@ -4,4 +4,3 @@ title = "Get in touch"
 +++
 
 <i class="fab fa-fort-awesome"></i>
-
