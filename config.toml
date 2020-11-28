@@ -8,14 +8,15 @@ disqusShortname = ""
 googleAnalytics = ""
 
 [params]
-  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Style options: default (pink), blue, green, pink, red, sea, violet, gold
   # Use custom.css for your custom styling
-  style = "violet"
+  style = "gold"
   description = "Lina Habazi art portfolio"
   copyright = "&copy;2020 Lina Habazi"
   sidebarAbout = [
     "I am an artist and software developer based in Houston, TX.",
   ]
+  logo = "img/logo.png"
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
      # proxy. The form makes a POST request to their servers to send the actual
@@ -62,5 +63,3 @@ googleAnalytics = ""
   stackoverflow = "full profile url in stackoverflow"
   instagram     = "www.instagram.com/linahabazi"
   github        = "full profile url in github"
-  youtube       = "full profile url in youtube"
-  whatsapp      = "wa.me service link"
