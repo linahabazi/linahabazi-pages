@@ -8,7 +8,7 @@ draft = false
 weight = 0
 +++
 
-Chalk Murals no. 2
+Chalk Mural no. 2
 
 <!--more-->
 

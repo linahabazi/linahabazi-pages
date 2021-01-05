@@ -8,7 +8,7 @@ showonlyimage = true
 weight = 0
 +++
 
-Chalk Murals no. 1
+Chalk Mural no. 1
 
 <!--more-->
 

@@ -8,7 +8,7 @@ date = "2016-11-05T19:59:22+05:30"
 weight = 0
 +++
 
-Line Drawings no. 1
+Line Drawing no. 1
 
 <!--more-->
 
