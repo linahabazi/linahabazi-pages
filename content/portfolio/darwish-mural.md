@@ -1,6 +1,7 @@
 +++
 title = "Darwish Mural - Coffee is the Key"
 image = "https://github.com/kishaningithub/hugo-creative-portfolio-theme/raw/master/exampleSite/static/img/portfolio/business-card.jpg"
+year = 2019
 
 draft = false
 date = "2016-11-05T19:56:17+05:30"

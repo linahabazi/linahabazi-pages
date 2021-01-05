@@ -1,6 +1,7 @@
 +++
 title = "Portrait of a Storyteller"
 image = "img/portfolio/trifold.jpg"
+year = 2018
 
 draft = false
 showonlyimage = true

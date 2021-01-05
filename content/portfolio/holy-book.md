@@ -1,6 +1,7 @@
 +++
 title = "Holy Book"
 image = "img/portfolio/paper-presentation.jpg"
+year = 2019
 
 draft = false
 showonlyimage = true

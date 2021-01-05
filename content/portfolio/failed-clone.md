@@ -1,6 +1,7 @@
 +++
 title = "Failed Clone"
 image = "img/portfolio/family.jpg"
+year = 2020
 
 draft = false
 showonlyimage = true

@@ -1,6 +1,7 @@
 +++
 title = "I am Free"
 image = "img/portfolio/gravity-paper.jpg"
+year = 2019
 
 showonlyimage = true
 date = "2016-11-05T19:44:32+05:30"

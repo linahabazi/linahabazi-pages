@@ -1,13 +1,12 @@
 +++
 title = "A Woman's Voice is a Revolution"
 image = "img/portfolio/womansvoice.jpg"
-
+year = 2018
 
 showonlyimage = true
 draft = false
 date = "2016-11-05T18:25:22+05:30"
 weight = 0
-year = 2018
 +++
 
 <!--more-->

@@ -1,6 +1,7 @@
 +++
 title = "Gibran Mural - The Trees are Poems"
 image = "img/portfolio/label-clothes.jpg"
+year = 2019
 
 showonlyimage = true
 date = "2016-11-05T19:57:40+05:30"
