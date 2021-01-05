@@ -47,6 +47,30 @@ googleAnalytics = ""
   home = true
 
   [[params.navlinks]]
+  name = "2020-2021"
+  url = "2020-2021/"
+
+  [[params.navlinks]]
+  name = "2018-2019"
+  url = "2018-2019/"
+
+  [[params.navlinks]]
+  name = "Warping Identity"
+  url = "warping-identity/"
+
+  [[params.navlinks]]
+  name = "Chalk Murals"
+  url = "chalk-murals/"
+
+  [[params.navlinks]]
+  name = "Line Drawings"
+  url = "line-drawings/"
+
+  [[params.navlinks]]
+  name = "Paintings and Prints"
+  url = "paintings-prints/"
+
+  [[params.navlinks]]
   name = "About"
   url = "about/"
 

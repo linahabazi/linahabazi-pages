@@ -832,6 +832,7 @@ a:active {
 .box-masonry .box-masonry-text p {
   color: #999999;
   font-size: 14px;
+
 }
 .box-masonry .box-masonry-hover-text-header {
   position: absolute;
@@ -850,6 +851,9 @@ a:active {
 }
 .box-masonry .box-masonry-hover-text-header h4 a {
   color: #555555;
+  background-color: white;
+  padding-left: 3px;
+  padding-right: 2px;
 }
 .box-masonry .box-masonry-hover-center {
   position: absolute;
@@ -868,6 +872,7 @@ a:active {
 }
 .box-masonry:hover {
   box-shadow: 0 0 5px #999;
+  /* possibly include carousel on hover here */
 }
 .box-masonry:hover .box-masonry-hover-text-header {
   opacity: 1;
@@ -876,7 +881,7 @@ a:active {
   opacity: 1;
 }
 .box-masonry:hover .box-masonry-image.with-hover-overlay:before {
-  opacity: 0.8;
+  opacity: .1;
 }
 .box-masonry:hover .box-masonry-image.with-hover-icon:after {
   opacity: 0.7;
@@ -1934,6 +1939,13 @@ h6,
   font-weight: 700;
   line-height: 1.2;
   color: #000000;
+}
+.box-masonry-hover-text-header h4 a, .box-masonry-description p {
+  font-family: 'Courier Prime', monospace;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #000000;
+  font-style: normal;
 }
 h1,
 .h1 {

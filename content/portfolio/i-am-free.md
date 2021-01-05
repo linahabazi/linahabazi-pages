@@ -1,13 +1,13 @@
 +++
-image = "https://github.com/kishaningithub/hugo-creative-portfolio-theme/raw/master/exampleSite/static/img/portfolio/business-card.jpg"
+title = "I am Free"
+image = "img/portfolio/gravity-paper.jpg"
+
 showonlyimage = true
+date = "2016-11-05T19:44:32+05:30"
 draft = false
-date = "2016-11-05T19:53:42+05:30"
-title = "Name of the work 5"
 weight = 0
 +++
 
-Fifth abundantly made Give sixth hath. Cattle creature i be don't them.
 <!--more-->
 
 Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.

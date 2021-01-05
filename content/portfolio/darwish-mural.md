@@ -1,13 +1,15 @@
 +++
-image = "img/portfolio/label-clothes.jpg"
-showonlyimage = false
-date = "2016-11-05T19:57:40+05:30"
-title = "Name of the work 7"
+title = "Darwish Mural - Coffee is the Key"
+image = "https://github.com/kishaningithub/hugo-creative-portfolio-theme/raw/master/exampleSite/static/img/portfolio/business-card.jpg"
+
 draft = false
+date = "2016-11-05T19:56:17+05:30"
+showonlyimage = true
 weight = 0
 +++
 
-Fifth abundantly made Give sixth hath. Cattle creature i be don't them.
+Chalk Murals no. 1
+
 <!--more-->
 
 Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
