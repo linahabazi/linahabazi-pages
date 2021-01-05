@@ -14,7 +14,7 @@ googleAnalytics = ""
   description = "Lina Habazi art portfolio"
   copyright = "&copy;2020 Lina Habazi"
   sidebarAbout = [
-    "I am an artist and software developer based in Houston, TX.",
+    "artist & software developer based in Houston, TX.",
   ]
   logo = "img/logo.png"
   # Contact page
