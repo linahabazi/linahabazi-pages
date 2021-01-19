@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cat1 on Lina Habazi</title>
+    <link>https://linahabazi.github.io/categories/cat1/</link>
+    <description>Recent content in cat1 on Lina Habazi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Nov 2016 18:25:22 +0530</lastBuildDate>
+    
+	<atom:link href="https://linahabazi.github.io/categories/cat1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Woman&#39;s Voice is a Revolution</title>
+      <link>https://linahabazi.github.io/portfolio/womans-voice/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      
+      <guid>https://linahabazi.github.io/portfolio/womans-voice/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

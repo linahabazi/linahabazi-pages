@@ -7,7 +7,6 @@ showonlyimage = true
 draft = false
 date = "2016-11-05T19:53:42+05:30"
 weight = 0
-year = 2020
 +++
 
 <!--more-->

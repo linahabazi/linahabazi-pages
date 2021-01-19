@@ -118,6 +118,10 @@ a i.fa,
 button i.fa {
   margin: 0 5px;
 }
+p i.fa,
+button i.fa {
+  margin: 0 5px;
+}
 .clickable {
   cursor: pointer !important;
 }
@@ -342,8 +346,8 @@ SIDEBAR + RIGHT COLUMN
   transition: all 0.2s ease-out;
 }
 .sidebar-heading a:hover {
-  border-bottom: dotted 1px #9055a2;
-  color: #000;
+  /* border-bottom: dotted 1px #9055a2; */
+  color: #9055a2;
   text-decoration: none;
 }
 .sidebar-p {
@@ -383,6 +387,7 @@ SIDEBAR + RIGHT COLUMN
 }
 .content-column {
   padding-top: 40px;
+  padding-bottom: 60px;
 }
 .content-column.white-background {
   background: #fff;
@@ -573,79 +578,46 @@ SOCIAL LINKS
 .contact-form {
   margin-bottom: 20px;
 }
-p.social {
+
+/* LINA'S SOCIAL STYLE */
+
+.lina-social {
   margin-top: 20px;
+  margin-bottom:40px;}
+
+.lina-social a:hover {
+  text-decoration: none;
 }
-p.social a {
-  margin: 0 10px 10px 0;
-  color: #fff;
+
+.lina-social .lina-socialrow{
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+
+.lina-social .lina-socialrow .lina-socialrowelement {
   display: inline-block;
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
-  line-height: 40px;
+  margin: 0 0 0 10px;
   font-size: 15px;
+  text-decoration: none;
   text-align: center;
   vertical-align: bottom;
-  border: solid 1px #999999;
   color: #999999;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  /*
-             &.facebook {background-color: #4460ae; border-color: #4460ae;}
-             &.gplus {background-color: #c21f25; border-color: #c21f25;}
-             &.twitter {background-color: #3cf; border-color: #3cf;}
-             &.instagram {background-color: #cd4378; border-color: #cd4378;}
-             &.email {background-color: #4a7f45; border-color: #4a7f45;}
-             &.link {background-color: #871AFF; border-color: #871AFF;}
-             */
 }
-p.social a:hover {
+
+.lina-social .lina-socialrow .lina-socialrowelement i {
+  vertical-align: middle;
+}
+
+.lina-social .lina-socialrow a:hover {
   color: #9055a2;
-  border-color: #9055a2;
 }
-p.social a i {
-  vertical-align: bottom;
-  line-height: 40px;
-}
-p.social.social--outline a {
-  background: transparent;
-}
-p.social.social--outline a.facebook {
-  color: #4460ae;
-  border-color: #4460ae;
-}
-p.social.social--outline a.gplus {
-  color: #c21f25;
-  border-color: #c21f25;
-}
-p.social.social--outline a.twitter {
-  color: #3cf;
-  border-color: #3cf;
-}
-p.social.social--outline a.instagram {
-  color: #cd4378;
-  border-color: #cd4378;
-}
-p.social.social--outline a.email {
-  color: #4a7f45;
-  border-color: #4a7f45;
-}
-p.social.social--outline a.link {
-  color: #871AFF;
-  border-color: #871AFF;
-}
-p.social.social--big a {
-  width: 60px;
-  height: 60px;
-  border-radius: 30px;
-  line-height: 60px;
-  font-size: 25px;
-}
-p.social.social--big i {
-  line-height: 60px;
-}
+
+
+
+
 /*
 =====================
 COPYRIGHT
@@ -1291,7 +1263,7 @@ STYLE SWITCHER FOR DEMO
   .nav-tabs-justified > .active > a,
   .nav-tabs-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus {
-    border-bottom-color: #f4f4f4;
+    border-bottom-color: #ffffff;
   }
 }
 /* navbar */
@@ -1587,7 +1559,7 @@ body {
   font-size: 16px;
   line-height: 1.55;
   color: #000000;
-  background-color: #f4f4f4;
+  background-color: #ffffff;
 }
 a {
   color: #9055a2;
@@ -1606,6 +1578,15 @@ a:focus {
 .img-rounded {
   border-radius: 0;
 }
+
+.img-sm {
+  max-width: 300px;
+}
+
+.img-lg {
+  max-width: 500px;
+}
+
 hr {
   margin-top: 24px;
   margin-bottom: 24px;
