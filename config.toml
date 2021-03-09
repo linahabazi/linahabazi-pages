@@ -56,8 +56,8 @@ googleAnalytics = ""
   url = "2020-2021/"
 
   [[params.navlinks]]
-  name = "2018-2019"
-  url = "2018-2019/"
+  name = "2017-2018"
+  url = "/series/2017-2018/"
 
   [[params.navlinks]]
   name = "Warping Identity"
