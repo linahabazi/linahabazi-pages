@@ -1,22 +1,14 @@
 <div class="lina-social">
   <div class="lina-socialrow">
-    <a href="{{ . }}" class="lina-socialrowelement">
-      {{ with .Site.Params.social.instagram }}
-      <i class="fa fa-instagram"></i>
-      @linahabazi
-      {{end}}
-    </a>
+    {{ with .Site.Params.social.instagram }}
+        <p>
+          <i class="fa fa-instagram"></i>
+          <a href="{{ . }}">lina.hbz</a>
+        </p>
+    {{end}}
   </div>
-  <div class="lina-socialrow">
-    <a href="{{ . }}" class="lina-socialrowelement">
-      {{ with .Site.Params.social.facebook }}
-      <i class="fa fa-facebook"></i>
-      /linahabazi
-      {{end}}
-    </a>
-  </div>
-  <div class="lina-socialrow">
-    <p class="lina-socialrowelement">
+  <div class="lina-socialrow">   
+    <p>
       <i class="fa fa-envelope"></i>
       contact@linahabazi.com
     </p>

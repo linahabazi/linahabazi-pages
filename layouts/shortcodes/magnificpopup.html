@@ -1,0 +1,40 @@
+<!-- use either src or link-thumb for thumbnail image -->
+{{ $src := .Get "src" }}
+{{ $url := (.Get "link" | default (.Get "src")) }}
+<!-- Allow local and remote images -->
+{{ if and $src (not (findRE "^(/|http(s?)://)" $src)) }}
+  {{ $src = ($.Page.Resources.GetMatch (.Get "src")).RelPermalink }}
+{{ end }}
+{{ if not (findRE "^(/|http(s?)://)" $url) }}
+  {{ $url = ($.Page.Resources.GetMatch $url).RelPermalink }}
+{{ end }}
+{{- $thumb := $src | default (printf "%s." (.Get "thumb") | replace $url ".") }}
+
+<div class="box" {{ with .Get "width" }}style="max-width:{{.}}"{{end}}>
+  <figure {{ with .Get "class" }}class="{{.}}"{{ end }} itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img"{{ if .Parent }} style="background-image: url('{{ $thumb | relURL }}');"{{ end }}{{ with .Get "size" }} data-size="{{.}}"{{ end }}>
+      <!-- There's no fallback for thumbnails -->
+      {{- $attr := .Get "attr" }}
+      <img
+        class="image-popup img-fluid"
+        itemprop="thumbnail"
+        src="{{ $thumb | relURL }}"
+        {{ with .Get "alt" | default (.Get "caption") }}
+          alt="{{.}}"
+        {{ end }}
+        {{if or (or (.Get "title") (.Get "caption")) (.Get "attr") }}
+          title="{{- with .Get `title` }}<h5 style='display:inline-block;'>{{.}} - </h5>{{ end -}}{{ with .Get `caption` }}<span> {{.}}</span>{{end}}{{- with .Get `attrlink` }} <a href='{{.}}'>{{ $attr }}</a>{{ else }}{{ $attr }}{{ end -}}"
+        {{ end }}
+        data-mfp-src="{{ $url }}"
+        {{ if .Get "fallback"}}
+          onerror="this.onerror=null;this.src='{{ .Get `fallback` }}';data-mfp-src='{{ .Get `fallback` }}'"
+        {{ end }}>
+    </div>
+    {{ with $url | default $src }}<a href="{{.}}" itemprop="contentUrl"></a>{{ end }}
+    {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr")}}
+      <figcaption>
+        {{- with .Get "title" }}<h4>{{.}}</h4>{{ end }}
+      </figcaption>
+    {{- end }}
+  </figure>
+</div>

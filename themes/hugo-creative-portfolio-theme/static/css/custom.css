@@ -1,4 +1,5 @@
 /* your styles go here */
+
 p i.fa,
 button i.fa {
   margin: 0 5px;
@@ -55,44 +56,59 @@ font-size: 14px;
 font-style:italic;
 }
 
+/* BIO STYLE */
 
+.bio {
+  display: inline-block;
+  margin-bottom: 20px;
+}
 
+.bio img {
+  float: left; 
+  margin: 5px 20px 15px 5px;
+  width: 50%;
+}
+
+.bio-text h5, .bio-text p {
+  display: inline;
+  text-align: justify;
+}
 
 /* LINA'S SOCIAL STYLE */
 
-.lina-social {  
-  margin-top: 20px;
-  margin-bottom:40px;}
-
-.lina-social a:hover {
+.lina-social a {
   text-decoration: none;
 }
 
-.lina-social .lina-socialrow{
-  margin-top: 20px;
-  margin-bottom:20px;
+.lina-social .lina-socialrow {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
 }
 
-.lina-social .lina-socialrow .lina-socialrowelement {
-  display: inline-block;
-  margin: 0 0 0 10px;
-  font-size: 15px;
-  text-decoration: none;
-  text-align: center;
-  vertical-align: bottom;
-  color: #999999;
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
+.lina-social .lina-socialrow a {
+  color: var(--gray-darker);
 }
 
-.lina-social .lina-socialrow .lina-socialrowelement i {
-  vertical-align: middle;
+.lina-social .lina-socialrow a i {
+
 }
 
 .lina-social .lina-socialrow a:hover {
-  color: #FFB914;
+  color: var(--gold);
+  text-decoration: none;
 }
+
+.lina-social .lina-socialrow p {
+}
+
+
+
+
+
+
+
+
 
 
 .box-masonry .box-masonry-hover-text-header p {
@@ -152,47 +168,34 @@ font-style:italic;
 
 .image-grid {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-
-  /* width: 100%;
-  height: auto; */
-
-  /* background-color: red; */
-
 }
 
-.image-column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+.image-grid img {
+  padding: 5px;
 }
 
-.image-column img {
-  width: 100%;
-  /* padding: 10px; */
-
-  margin-top: 8px;
-  vertical-align: middle;
-
-  /* margin: 0px;
-  object-fit: cover;
-  object-position: center;
-  width: 200px;
-  padding: 5px; */
+@media only screen and (min-width: 300px){
+  .image-grid img {
+    max-width: 100%;
+  }
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 1000px) {
-  .image-column {
-    flex: 50%;
+@media only screen and (min-width: 800px){
+  .image-grid img {
     max-width: 50%;
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .image-column {
-    flex: 100%;
-    max-width: 100%;
+@media only screen and (min-width: 1440px){
+  .image-grid img {
+    max-width: 30%;
+  }
+}
+
+@media only screen and (min-width: 2000px){
+  .image-grid img {
+    max-width: 25%;
   }
 }

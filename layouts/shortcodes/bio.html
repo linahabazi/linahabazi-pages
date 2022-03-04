@@ -1,8 +1,7 @@
-<div style="overflow: hidden; display:flex;align-items:flex-end;">
-  <div>
-    <img src="{{ .Get `img-src` }}" style="padding-bottom:20px; padding-right:20px" />
-  </div>
-  <div>
-    <p><span style="font-weight:bolder; font-size:larger; color:black">{{ .Site.Title }}</span>{{ .Inner }}</p>
+<div class="bio">
+  <img src="{{ .Get `img-src` }}" />
+  <div class="bio-text">
+    <h5>{{ .Site.Title }}</h5>
+    <p>{{ .Inner }}</p>
   </div>
 </div>
